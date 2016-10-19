@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private static  final  int REQUEST_LOGIN_QQ=1;
     private static  final  int REQUEST_LOGIN_PHONE=2;
     private  static  final  int LOGIN_REQUEST = 3;
-
+    int a;
 
     public static final int  CHANGE_USER_NAME =1;
     private boolean onClik_mark = true;
