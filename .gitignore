@@ -6,3 +6,5 @@
 .DS_Store
 /build
 /captures
+app_zzw/libs/
+app_zzw/src/main/java/com/zzz/ucoondemo/Utils/
