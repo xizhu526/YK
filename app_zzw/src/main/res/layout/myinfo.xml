@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:zzz="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.zzz.ucoondemo.view.CircleImageView
+            android:id="@+id/idCIIcon"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:src="@mipmap/icon"
+            zzz:border_color="@color/white"
+            zzz:border_width="1dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/idTVName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="啦啦"
+                android:textColor="@color/colorName" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/icon_sex" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="签名:"
+                android:textColor="@color/colorSize" />
+
+            <TextView
+                android:id="@+id/idTVSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="不要问我是谁，就是约起来。"
+                android:textColor="@color/colorSize" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@mipmap/icon_eidtsize" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginLeft="100px"
+                android:background="@mipmap/icon_phone" />
+
+            <TextView
+                android:id="@+id/idTVPhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="80px"
+                android:gravity="center"
+                android:text="1234567"
+                android:textColor="@color/colorSize" />
+        </LinearLayout>
+        <!--分割线-->
+        <ImageView
+            android:layout_width="900px"
+            android:layout_height="1px"
+            android:layout_gravity="center"
+            android:background="@color/colorSize" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_marginLeft="100px"
+                android:background="@mipmap/icon_wechat" />
+
+            <TextView
+                android:id="@+id/idTVWechatNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="80px"
+                android:gravity="center"
+                android:text="1234567"
+                android:textColor="@color/colorSize" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

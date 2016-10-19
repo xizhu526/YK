@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="green">#c3d94f</color>
+    <color name="titleColor">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorName">#333333</color>
+    <color name="colorChatText">#333333</color>
+    <color name="colorDialog">#333333</color>
+    <color name="colorSize">#BBBBBB</color>
+    <color name="colorOrange">#E6B14B</color>
+    <color name="gray">#BBBEBEBE</color>
+</resources>

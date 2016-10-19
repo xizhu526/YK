@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zzz="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/idTVFromChatDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/gray"
+        android:text="2016-10-1 10:10"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.zzz.ucoondemo.view.CircleImageView
+            android:id="@+id/idCIFromIcon"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_gravity="center"
+            android:src="@mipmap/icon"
+            zzz:border_color="@color/white"
+            zzz:border_width="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idTVFromName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="我我我"
+                android:textColor="@color/colorSize" />
+
+            <TextView
+                android:id="@+id/idTVFromChatMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chatfrom_bg_normal"
+                android:gravity="fill"
+                android:maxWidth="300dp"
+                android:minHeight="10dp"
+                android:text="哦！"
+                android:textColor="@color/colorChatText" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

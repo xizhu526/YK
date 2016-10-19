@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#F3F3F3" >
+
+    <FrameLayout
+        android:id="@+id/fragment_shuiyoukong_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#C3D94F"
+        />
+
+
+    <FrameLayout
+        android:id="@+id/fragment_shuiyoukong_biaoti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        />
+
+
+
+    <FrameLayout
+        android:id="@+id/fragment_shuiyoukong_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        />
+
+    <FrameLayout
+        android:id="@+id/fragment_shuiyoukong_list_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        />
+
+
+
+</LinearLayout>

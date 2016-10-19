@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:background="#C3D94F">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="16dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/SYK_toggle_menu"
+            android:text="菜单"
+            android:background="@drawable/icon_pop_caidan_def_3x"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/push_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发布服务"
+        android:textSize="20dp"
+        android:textColor="@color/ivory"
+        android:layout_centerInParent="true"
+        />
+
+
+</RelativeLayout>

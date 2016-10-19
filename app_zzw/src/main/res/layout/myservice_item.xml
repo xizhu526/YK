@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:zzz="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20px"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.zzz.ucoondemo.view.CircleImageView
+                    android:id="@+id/idCIIcon"
+                    android:layout_width="150px"
+                    android:layout_height="150px"
+                    android:src="@mipmap/icon"
+                    zzz:border_color="@color/white"
+                    zzz:border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/idTVName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="啦啦"
+                    android:textColor="@color/colorName" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20px"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/idTVSerceContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="求代课"
+                    android:textColor="@color/colorName" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/icon_qian" />
+
+                    <TextView
+                        android:id="@+id/idTVMoney"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20px"
+                        android:text="50"
+                        android:textColor="@color/green" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/idTVServiceState"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="正在服务"
+                    android:textColor="@color/colorOrange"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/idTVServiceDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="20px"
+                    android:text="4月25日"
+                    android:textColor="@color/colorSize" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="900px"
+            android:layout_height="1px"
+            android:layout_gravity="center"
+            android:layout_marginTop="20px"
+            android:background="@color/colorSize" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20px"
+            android:layout_marginTop="20px"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/idIBConnTa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/lianxita_backgroup" />
+
+            <ImageButton
+                android:id="@+id/idIBMoreInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:background="@drawable/chankanxiangqing" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

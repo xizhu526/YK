@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <Button
+        android:id="@+id/ac_guide_login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+       android:visibility="gone"
+        android:text="进入有空"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/contentPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:flipInterval="30"
+        android:layout_centerVertical="true"
+        android:persistentDrawingCache="animation" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginBottom="22.0dip">
+        <LinearLayout
+            android:id="@+id/dot_contain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/cur_dot"
+            android:layout_width="2dp"
+            android:layout_height="2dp"
+            android:src="@drawable/dot2_w" />
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>
